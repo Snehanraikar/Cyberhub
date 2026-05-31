@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberHub</title>
+    <script>
+      // GitHub Pages SPA fix — store the full URL then redirect to index
+      sessionStorage.setItem('redirect', window.location.href);
+      window.location.replace(
+        window.location.origin + '/Cyberhub/'
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
